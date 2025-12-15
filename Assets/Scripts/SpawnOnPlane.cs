@@ -51,7 +51,7 @@ public class SpawnOnPlane : MonoBehaviour
             return;
 
         // Second: Raycase onto the AR PLane to spawn the object
-        if (m_RaycastManager.Raycast(inputPosition, m_Hits, TrackableType.Planes))
+        if (m_RaycastManager.Raycast(inputPosition, m_Hits, TrackableType.PlaneWithinPolygon))
         {
             Pose hitPose = m_Hits[0].pose;
 
