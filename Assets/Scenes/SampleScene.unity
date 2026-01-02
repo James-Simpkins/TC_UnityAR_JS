@@ -222,7 +222,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trackedImageManager: {fileID: 0}
-  imagePrefabList: []
+  imagePrefabList:
+  - imageName: Controller
+    prefab: {fileID: 5446180608200495976, guid: c48677822b42bd5429562a843f011c8c, type: 3}
+    spawnedObject: {fileID: 0}
+  - imageName: Flash drive
+    prefab: {fileID: 1381189609344739472, guid: 14eff87af3b80454a98506970902f67d, type: 3}
+    spawnedObject: {fileID: 0}
+  - imageName: Mouse
+    prefab: {fileID: 4722509367073654665, guid: f3cb52f60eaac9043a0337d075a7debf, type: 3}
+    spawnedObject: {fileID: 0}
 --- !u!114 &298988078
 MonoBehaviour:
   m_ObjectHideFlags: 0
