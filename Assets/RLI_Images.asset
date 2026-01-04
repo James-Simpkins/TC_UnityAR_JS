@@ -27,3 +27,23 @@ MonoBehaviour:
     m_SpecifySize: 0
     m_Name: Controller
     m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5452719668523186623
+      m_GuidHigh: 11028215796293126281
+    m_SerializedTextureGuid:
+      m_GuidLow: 16948299086251074275
+      m_GuidHigh: 12771378637672203032
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: FlashDrive
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5498891601068903206
+      m_GuidHigh: 916817423388968618
+    m_SerializedTextureGuid:
+      m_GuidLow: 12674382370409938186
+      m_GuidHigh: 5297672775955121210
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Mouse
+    m_Texture: {fileID: 0}
