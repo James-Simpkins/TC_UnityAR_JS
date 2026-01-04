@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 167683815473039111}
   - component: {fileID: 8513624800233014848}
   - component: {fileID: 1137194343457074363}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -148,7 +148,7 @@ GameObject:
   - component: {fileID: 6945136670852796282}
   - component: {fileID: 4791088708948964833}
   - component: {fileID: 1761892567531921439}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -246,6 +246,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8700617353114198275, guid: b852da5e915eaa4419ef5d4ddd160063, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b852da5e915eaa4419ef5d4ddd160063, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.1
@@ -302,9 +306,21 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 65702495048144492, guid: b852da5e915eaa4419ef5d4ddd160063, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b852da5e915eaa4419ef5d4ddd160063, type: 3}
       propertyPath: m_Name
       value: Controller
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b852da5e915eaa4419ef5d4ddd160063, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835072371717917637, guid: b852da5e915eaa4419ef5d4ddd160063, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
