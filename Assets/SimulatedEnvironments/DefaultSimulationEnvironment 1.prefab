@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6842213011494626923}
   m_Layer: 31
   m_Name: Simulated Tracked Image (1)
-  m_TagString: Untagged
+  m_TagString: Mouse
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -241,7 +241,7 @@ GameObject:
   - component: {fileID: 3852535677955613947}
   m_Layer: 31
   m_Name: Simulated Tracked Image
-  m_TagString: Untagged
+  m_TagString: FlashDrive
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
