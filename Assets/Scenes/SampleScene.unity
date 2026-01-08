@@ -230,7 +230,7 @@ MonoBehaviour:
     prefab: {fileID: 1381189609344739472, guid: 14eff87af3b80454a98506970902f67d, type: 3}
     spawnedObject: {fileID: 0}
   - imageName: Mouse
-    prefab: {fileID: 4722509367073654665, guid: f3cb52f60eaac9043a0337d075a7debf, type: 3}
+    prefab: {fileID: 4018798569876714083, guid: 6ff85affe5740904981f944cf215fbee, type: 3}
     spawnedObject: {fileID: 0}
 --- !u!114 &298988078
 MonoBehaviour:
