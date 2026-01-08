@@ -63,7 +63,6 @@ public class SpawnOnPlane : MonoBehaviour
             Pose hitPose = m_Hits[0].pose;
             Instantiate(m_ObjectToSpawn, hitPose.position, hitPose.rotation);
         }
-            
 
         // First: Check if the user clicked on a spawned object
         if (ClickedOnSpawnedObject(inputPosition))
