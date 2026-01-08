@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5445950521824057775}
   - component: {fileID: 4889487479713433808}
   - component: {fileID: 6842213011494626923}
+  - component: {fileID: 4805735354546427570}
   m_Layer: 31
   m_Name: Simulated Tracked Image (1)
   m_TagString: Mouse
@@ -105,6 +106,23 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &4805735354546427570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2765291993243674535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f79d3cbae3b911347bcd38792b2a218f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RaycastManager: {fileID: 0}
+  m_ObjectToSpawn: {fileID: 4722509367073654665, guid: f3cb52f60eaac9043a0337d075a7debf, type: 3}
+  M_SpawnedObjectLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &3475735057603037936
 GameObject:
   m_ObjectHideFlags: 0
@@ -534,6 +552,7 @@ GameObject:
   - component: {fileID: 2535478102238120867}
   - component: {fileID: 2256960902702010555}
   - component: {fileID: 8111781247511521779}
+  - component: {fileID: 515475712692141198}
   m_Layer: 31
   m_Name: Simulated Tracked Image (2)
   m_TagString: GameController
@@ -627,6 +646,23 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &515475712692141198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6667970930058484892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f79d3cbae3b911347bcd38792b2a218f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RaycastManager: {fileID: 0}
+  m_ObjectToSpawn: {fileID: 5446180608200495976, guid: c48677822b42bd5429562a843f011c8c, type: 3}
+  M_SpawnedObjectLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &6947057105547783868
 GameObject:
   m_ObjectHideFlags: 0
