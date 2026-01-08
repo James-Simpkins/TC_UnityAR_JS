@@ -239,6 +239,7 @@ GameObject:
   - component: {fileID: 7027700216025616306}
   - component: {fileID: 6274445819058282171}
   - component: {fileID: 3852535677955613947}
+  - component: {fileID: 466729336437447032}
   m_Layer: 31
   m_Name: Simulated Tracked Image
   m_TagString: FlashDrive
@@ -332,6 +333,23 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &466729336437447032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3583619555576856804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f79d3cbae3b911347bcd38792b2a218f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RaycastManager: {fileID: 0}
+  m_ObjectToSpawn: {fileID: 1381189609344739472, guid: 14eff87af3b80454a98506970902f67d, type: 3}
+  M_SpawnedObjectLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &5056272964426416779
 GameObject:
   m_ObjectHideFlags: 0
