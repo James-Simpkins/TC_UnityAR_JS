@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a09d5d626eda7046915cb371f7c82c5, type: 3}
   m_Name: Question1
   m_EditorClassIdentifier: 
-  questionText: Which one of these 4 days is it today?
+  questionText: Which is left click?
   answers:
-  - Monday
-  - Wednesday
-  - Thursday
-  - Saturday
-  correntAnswerIndex: 2
+  - Button 0
+  - Button 1
+  - Button 2
+  - Button 3
+  correntAnswerIndex: 0
