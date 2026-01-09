@@ -502,7 +502,6 @@ GameObject:
   - component: {fileID: 5445950521824057775}
   - component: {fileID: 4889487479713433808}
   - component: {fileID: 6842213011494626923}
-  - component: {fileID: 4805735354546427570}
   m_Layer: 31
   m_Name: Image_Mouse
   m_TagString: Mouse
@@ -596,23 +595,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &4805735354546427570
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2765291993243674535}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f79d3cbae3b911347bcd38792b2a218f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_RaycastManager: {fileID: 0}
-  m_ObjectToSpawn: {fileID: 4722509367073654665, guid: f3cb52f60eaac9043a0337d075a7debf, type: 3}
-  M_SpawnedObjectLayer:
-    serializedVersion: 2
-    m_Bits: 0
 --- !u!1 &3475735057603037936
 GameObject:
   m_ObjectHideFlags: 0
@@ -747,7 +729,6 @@ GameObject:
   - component: {fileID: 7027700216025616306}
   - component: {fileID: 6274445819058282171}
   - component: {fileID: 3852535677955613947}
-  - component: {fileID: 466729336437447032}
   m_Layer: 31
   m_Name: Image_FlashDrive
   m_TagString: FlashDrive
@@ -841,23 +822,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &466729336437447032
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3583619555576856804}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f79d3cbae3b911347bcd38792b2a218f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_RaycastManager: {fileID: 0}
-  m_ObjectToSpawn: {fileID: 1381189609344739472, guid: 14eff87af3b80454a98506970902f67d, type: 3}
-  M_SpawnedObjectLayer:
-    serializedVersion: 2
-    m_Bits: 1
 --- !u!1 &3624710614247555456
 GameObject:
   m_ObjectHideFlags: 0
@@ -1235,7 +1199,6 @@ GameObject:
   - component: {fileID: 2535478102238120867}
   - component: {fileID: 2256960902702010555}
   - component: {fileID: 8111781247511521779}
-  - component: {fileID: 515475712692141198}
   m_Layer: 31
   m_Name: Image_Controller
   m_TagString: GameController
@@ -1329,23 +1292,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &515475712692141198
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6667970930058484892}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f79d3cbae3b911347bcd38792b2a218f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_RaycastManager: {fileID: 0}
-  m_ObjectToSpawn: {fileID: 5446180608200495976, guid: c48677822b42bd5429562a843f011c8c, type: 3}
-  M_SpawnedObjectLayer:
-    serializedVersion: 2
-    m_Bits: 0
 --- !u!1 &6947057105547783868
 GameObject:
   m_ObjectHideFlags: 0
