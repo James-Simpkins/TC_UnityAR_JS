@@ -191,7 +191,7 @@ MonoBehaviour:
       m_Calls: []
   m_SerializedLibrary: {fileID: 11400000, guid: 82f8065bac99d9045a35e4d0f2624ddd, type: 2}
   m_MaxNumberOfMovingImages: 0
-  m_TrackedImagePrefab: {fileID: 2369406584325299430, guid: 4a39c1e28cc19ca4ca316420978181bf, type: 3}
+  m_TrackedImagePrefab: {fileID: 0}
 --- !u!114 &298988076
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -221,7 +221,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d28c89d3e0824dc4185794ca4b5630cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trackedImageManager: {fileID: 0}
+  trackedImageManager: {fileID: 298988075}
   imagePrefabList:
   - imageName: Controller
     prefab: {fileID: 5446180608200495976, guid: c48677822b42bd5429562a843f011c8c, type: 3}
