@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6869762160344944743}
   - component: {fileID: 125691647110459058}
   - component: {fileID: 8401920127660535755}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -114,7 +114,7 @@ GameObject:
   - component: {fileID: 8286888412276210172}
   - component: {fileID: 7476437166829629441}
   - component: {fileID: 4509440745924970368}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: B_OpenMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -258,7 +258,7 @@ GameObject:
   - component: {fileID: 2260016448069717840}
   - component: {fileID: 5903778412410296460}
   - component: {fileID: 3925391384157668858}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: T_OpenMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -395,7 +395,7 @@ GameObject:
   - component: {fileID: 1059087080963070273}
   - component: {fileID: 525084106311394245}
   - component: {fileID: 7700414280284821942}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -498,7 +498,8 @@ GameObject:
   - component: {fileID: 4582634382060805799}
   - component: {fileID: 4850392387835253874}
   - component: {fileID: 4813601808822696114}
-  m_Layer: 6
+  - component: {fileID: 829230102188973258}
+  m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -609,6 +610,103 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeed: 100
+--- !u!82 &829230102188973258
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2369406584325299430}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: e04830ca5f7c11d47bbd56bb60fbd557, type: 3}
+  m_Resource: {fileID: 8300000, guid: e04830ca5f7c11d47bbd56bb60fbd557, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &2412676796882030836
 GameObject:
   m_ObjectHideFlags: 0
@@ -620,7 +718,7 @@ GameObject:
   - component: {fileID: 2720775403543222886}
   - component: {fileID: 914473765274849497}
   - component: {fileID: 7782058906247698731}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: T_CloseMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -756,7 +854,7 @@ GameObject:
   - component: {fileID: 1232595748953357778}
   - component: {fileID: 5155033336519963397}
   - component: {fileID: 412550769550670389}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -925,7 +1023,7 @@ GameObject:
   - component: {fileID: 6090474615858429105}
   - component: {fileID: 9201652816555012666}
   - component: {fileID: 897426266596280996}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: B_CloseMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1067,7 +1165,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5361756253433000346}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: -----CloseMenu-----
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1108,7 +1206,7 @@ GameObject:
   - component: {fileID: 1881698199326479966}
   - component: {fileID: 4404078230953149344}
   - component: {fileID: 182548184096908990}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: VideoPlayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
