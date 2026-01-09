@@ -88,7 +88,7 @@ public class SpawnOnPlane : MonoBehaviour
         // Only detect colliders on the "SpawnedObjectLayer"
         if(Physics.Raycast(ray,out hit, Mathf.Infinity, M_SpawnedObjectLayer))
         {
-            //Destroy(hit.collider.gameObject);
+            Destroy(hit.collider.gameObject);
             return true;
         }
         
