@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 
 public class DragRotate : MonoBehaviour
 {
-    public float rotationSpeed = 100f;
+    public float rotationSpeed = 30f;
     private bool isSelected = false;
     private Vector2 previousPosition;
 
