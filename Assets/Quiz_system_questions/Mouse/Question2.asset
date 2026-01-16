@@ -17,5 +17,5 @@ MonoBehaviour:
   - Keyboard
   - Button device
   - Computer mouse
-  - Button 3
+  - USB machine
   correntAnswerIndex: 2
