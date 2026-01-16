@@ -518,7 +518,7 @@ Transform:
   m_GameObject: {fileID: 2765291993243674535}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0.556, y: 0.5, z: 0.813}
+  m_LocalPosition: {x: 2.5, y: 0.5, z: 0.813}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -625,7 +625,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.5, y: 0.01, z: 2.5}
+  m_LocalScale: {x: 7.1759996, y: 0.01, z: 2.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4365528357719543085}
@@ -745,7 +745,7 @@ Transform:
   m_GameObject: {fileID: 3583619555576856804}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.746, y: 0.5, z: 0.813}
+  m_LocalPosition: {x: 0.23, y: 0.5, z: 0.813}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -971,8 +971,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5056272964426416779}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.25, y: 0.5, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.583, y: 0.5, z: 0}
   m_LocalScale: {x: 0.01, y: 1, z: 2.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1214,13 +1214,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6667970930058484892}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.5, y: -0.5, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: -0.986, y: 0.5, z: -0.335}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -2.192, y: 0.5, z: 0.813}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4365528357719543085}
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: -90}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!114 &2535478102238120867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1454,9 +1454,9 @@ Transform:
   - {fileID: 3929527087209849353}
   - {fileID: 5911072156897761180}
   - {fileID: 4744334345910528120}
+  - {fileID: 5159857720409506291}
   - {fileID: 8687952604547441517}
   - {fileID: 4262300758017627045}
-  - {fileID: 5159857720409506291}
   - {fileID: 5283108358406351049}
   - {fileID: 812698916201323043}
   m_Father: {fileID: 0}
@@ -1478,7 +1478,7 @@ MonoBehaviour:
     rotation: {x: -0.16794881, y: 0.414527, z: -0.078137435, w: -0.8909855}
   m_CameraMovementBounds:
     m_Center: {x: 0.044999838, y: 0.545, z: 0.00000011920929}
-    m_Extent: {x: 1.3000004, y: 0.5500002, z: 1.2500005}
+    m_Extent: {x: 3.59, y: 0.5500002, z: 1.2500005}
   m_DefaultViewPose:
     position: {x: 0, y: 1.0609863, z: -1.5}
     rotation: {x: -0.16100603, y: 0.1567927, z: -0.025916385, w: -0.97407466}
