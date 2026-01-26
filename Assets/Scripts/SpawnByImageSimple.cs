@@ -66,7 +66,7 @@ public class SpawnByImageSimple : MonoBehaviour
                     return;
 
                 entry.spawnedObject.transform.position = trackedImage.transform.position;
-                entry.spawnedObject.transform.rotation = trackedImage.transform.rotation;
+                // entry.spawnedObject.transform.rotation = trackedImage.transform.rotation; (causes object to snap back)
 
                 bool isTracked = trackedImage.trackingState == TrackingState.Tracking;
                 entry.spawnedObject.SetActive(isTracked);
