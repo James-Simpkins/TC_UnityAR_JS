@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Mouse
   - FlashDrive
+  - Computer
   layers:
   - Default
   - TransparentFX
