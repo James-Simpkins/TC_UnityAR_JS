@@ -1,2 +1,13 @@
 fileFormatVersion: 2
 guid: f79d3cbae3b911347bcd38792b2a218f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_RaycastManager: {instanceID: 0}
+  - m_ObjectToSpawn: {fileID: 1709543540100065110, guid: 874602e407db01a4db29935ede859642, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
