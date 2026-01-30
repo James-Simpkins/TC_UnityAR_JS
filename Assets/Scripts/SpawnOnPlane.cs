@@ -52,6 +52,7 @@ public class SpawnOnPlane : MonoBehaviour
         // 1. BLOCK: If we touched a button, don't do anything else.
         if (isPointerOverUI)
             return;
+        Debug.Log("Pointer is over the UI");
 
         // 2. Check if the user clicked on an existing spawned object to delete it
         if (ClickedOnSpawnedObject(inputPosition))
