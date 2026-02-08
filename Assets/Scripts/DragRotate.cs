@@ -41,6 +41,7 @@ public class DragRotate : MonoBehaviour
             {
                 Vector2 delta = Mouse.current.position.ReadValue() - previousPosition,
                 transform.Rotate(Vector).up, -delta.m * rotationSpeed * Time.deltaTime, Space.World);
+                transform.Rotate(Vector).left, -delta.y * rotationSpeed * Time.deltaTime, Space.World);
                 previousPosition = Mouse.current.position.ReadValue();
             }
 
@@ -64,6 +65,7 @@ public class DragRotate : MonoBehaviour
             {
                 Vector2 delta = touch.delta.ReadValue();
                 transform.Rotate(Vector3 up, -delta m * rotationSpeed * Time.deltaTime, Space World),
+                transform.Rotate(Vector3 left, -delta.y * rotationSpeed * Time.deltaTime, Space World),
                 previousPosition = touch.position.ReadValue();
             }
 
@@ -85,7 +87,6 @@ public class DragRotate : MonoBehaviour
 
         if (Input.GetMouseButton(0) && isSelected)
         {
-            Debug.Log("Input 0");
             Vector2 delta = (Vector2)Input.mousePosition - previousPosition;
             transform.Rotate(Vector3.up, -delta.x * rotationSpeed * Time.deltaTime, Space.World);
             transform.Rotate(Vector3.left, -delta.y * rotationSpeed * Time.deltaTime, Space.World);
