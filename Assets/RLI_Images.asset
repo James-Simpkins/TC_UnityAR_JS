@@ -47,3 +47,13 @@ MonoBehaviour:
     m_SpecifySize: 0
     m_Name: Mouse
     m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4830486375178863258
+      m_GuidHigh: 8501558745741002920
+    m_SerializedTextureGuid:
+      m_GuidLow: 14273297766012548062
+      m_GuidHigh: 4292785963968827195
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Computer
+    m_Texture: {fileID: 0}
