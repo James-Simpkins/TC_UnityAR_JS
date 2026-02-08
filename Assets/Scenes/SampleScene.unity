@@ -232,6 +232,9 @@ MonoBehaviour:
   - imageName: Mouse
     prefab: {fileID: 4018798569876714083, guid: 6ff85affe5740904981f944cf215fbee, type: 3}
     spawnedObject: {fileID: 0}
+  - imageName: Computer
+    prefab: {fileID: 4197209769638111361, guid: a4f95d41d98884b4081daebe2c5ff0f6, type: 3}
+    spawnedObject: {fileID: 0}
 --- !u!114 &298988078
 MonoBehaviour:
   m_ObjectHideFlags: 0
