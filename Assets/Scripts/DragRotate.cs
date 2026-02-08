@@ -85,8 +85,10 @@ public class DragRotate : MonoBehaviour
 
         if (Input.GetMouseButton(0) && isSelected)
         {
+            Debug.Log("Input 0");
             Vector2 delta = (Vector2)Input.mousePosition - previousPosition;
             transform.Rotate(Vector3.up, -delta.x * rotationSpeed * Time.deltaTime, Space.World);
+            transform.Rotate(Vector3.left, -delta.y * rotationSpeed * Time.deltaTime, Space.World);
             previousPosition = Input.mousePosition;
         }
 
