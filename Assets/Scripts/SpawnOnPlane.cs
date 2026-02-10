@@ -29,6 +29,7 @@ public class SpawnOnPlane : MonoBehaviour
             if (EventSystem.current.IsPointerOverGameObject())
             {
                 isPointerOverUI = true;
+                Debug.Log("Pointer is over UI.");
             }
         }
         else
