@@ -61,6 +61,7 @@ public class SpawnOnPlane : MonoBehaviour
         // 3. Raycast onto the AR Plane to spawn
         if (m_RaycastManager.Raycast(inputPosition, m_Hits, TrackableType.PlaneWithinPolygon))
         {
+            Debug.Log("Raycasting onto AR Plane to spawn object.");
             Pose hitPose = m_Hits[0].pose;
             Instantiate(m_ObjectToSpawn, hitPose.position, hitPose.rotation);
         }
