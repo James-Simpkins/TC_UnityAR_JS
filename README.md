@@ -21,7 +21,10 @@
 
 <br>
 <h2>Asset table</h2>
-<!-- Asset table screenshots not yet added. -->
+<img src="Images/Asset_table_(1_of_4).png"></img>
+<img src="Images/Asset_table_(2_of_4).png"></img>
+<img src="Images/Asset_table_(3_of_4).png"></img>
+<img src="Images/Asset_table_(4_of_4).png"></img>
 
 <br>
 <h2>Note about the above links</h2>
